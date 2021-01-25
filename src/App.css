@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: url("https://images.pexels.com/photos/365268/pexels-photo-365268.jpeg?cs=srgb&dl=pexels-adrianna-calvo-365268.jpg&fm=jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn {
+  margin-top: 8px;
+  display: inline-block
+}
+#currentWeather{
+  background: url("https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card-header{
+  background-color: lightgray;
+  text-align: center;
+  margin-top: 10%;
+ 
+}
+.dayBlock{
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: lightslategrey solid;
+  background: url("https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.center{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
